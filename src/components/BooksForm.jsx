@@ -21,6 +21,6 @@ function BooksForm() {
       <input type="sumbit" name="title" />
     </form>
   );
-};
+}
 
 export default BooksForm;

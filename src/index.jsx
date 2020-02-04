@@ -23,8 +23,8 @@ const initialState = {
       id: Math.floor(Math.random() * 1000),
       title: 'fakeTitle3',
       category: 'Horror',
-    }
-  ]
+    },
+  ],
 };
 
 const store = createStore(rootReducer, initialState);
@@ -33,7 +33,7 @@ ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 serviceWorker.register();
