@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react';
+import { connect } from 'react-redux';
+import Book from '../components/Book';
 
-function BooksList() {
+function BooksList( { books } ) {
   return (
     <div>
       <table>
@@ -9,14 +11,12 @@ function BooksList() {
           <th>Title</th>
           <th>Category</th>
         </tr>
-        <tr>
-          <td>id1</td>
-          <td>Title1</td>
-          <td>Category1</td>
-        </tr>
+        {books.map((book) => <Book book={book} />)}
       </table>
     </div>
   );
 }
-
-export default BooksList;
+const mapStateToProps = (state) => {
+  return {books: state.books};
+}
+export default connect(mapStateToProps)(BooksList);
