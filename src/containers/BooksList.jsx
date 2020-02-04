@@ -7,12 +7,16 @@ function BooksList({ books }) {
   return (
     <div>
       <table>
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Category</th>
-        </tr>
-        {books.map(book => <Book book={book} />)}
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          {books.map(book => <Book key={book.id} book={book} />)}
+        </tbody>
       </table>
     </div>
   );
