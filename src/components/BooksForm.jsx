@@ -8,19 +8,19 @@ function BooksForm() {
     'Horror',
     'Kids',
     'Learning',
-    'Sci-Fi'
+    'Sci-Fi',
   ];
   return (
     <form>
-      <input type='text' name='title' />
+      <input type="text" name="title" />
       <select>
         {categories.map(cat => (
           <option>{cat}</option>
         ))}
       </select>
-      <input type='sumbit' name='title' />
+      <input type="sumbit" name="title" />
     </form>
   );
-}
+};
 
 export default BooksForm;
