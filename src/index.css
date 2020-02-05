@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin-left: 100px;
+  background-color: #fafafa;
+}
+
+.nav{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+}
+
+.Bookstore-CMS {
+  width: 240px;
+  height: 37px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.filter {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.filterSelect {
+  margin-left: 15px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.booksList {
+
+}
+
+.booksForm {
+
+}
