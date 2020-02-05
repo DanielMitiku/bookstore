@@ -18,7 +18,7 @@ function changeFilter(payload) {
   return {
     type: CHANGE_FILTER,
     payload,
-  }
+  };
 }
 
 export { createBook, removeBook, changeFilter };
