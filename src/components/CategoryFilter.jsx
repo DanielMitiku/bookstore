@@ -4,8 +4,9 @@ import categories from '../utils';
 
 const CategoryFilter = ({ onFilterChange }) => (
   <div className="filter">
-    <p>Filter By:
-      <select className="filterSelect" onChange={e => onFilterChange(e.target.value)}>
+    <p>
+      Filter By:
+      <select className="filter-select" onChange={e => onFilterChange(e.target.value)}>
         <option key="All" value="All">All</option>
         {categories.map(cat => (
           <option key={cat} value={cat}>{cat}</option>

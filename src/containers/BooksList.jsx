@@ -20,13 +20,10 @@ function BooksList({
 
   return (
     <div>
-      <CategoryFilter onFilterChange={handleFilterChange} />
-      <table>
+      <table className="books-list">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Category</th>
+            <CategoryFilter onFilterChange={handleFilterChange} />
           </tr>
         </thead>
         <tbody>
