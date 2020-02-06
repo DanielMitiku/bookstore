@@ -6,6 +6,11 @@ Book Store app made using react and redux. It will help you organize and manage 
 - Redux
 
 ### 🔥  [Demo](https://bookstore-cms-demo.herokuapp.com/)
+
+## Screenshot
+
+<img src="./screenshot/1.png">
+
 ## Get Started 
 
 *Clone the repo to your local machine*
