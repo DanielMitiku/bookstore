@@ -1,25 +1,22 @@
 body {
   margin: 0;
-}
-
-.container {
-  margin-left: 100px;
   background-color: #fafafa;
 }
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .nav{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 100px;
-  width: 100%;
+  padding: 1.5em;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
 }
 
 .Bookstore-CMS {
-  width: 240px;
-  height: 37px;
+  display: inline;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: bold;
@@ -31,8 +28,8 @@ body {
 }
 
 .filter {
-  margin-top: 10px;
-  margin-left: 15px;
+  margin: 1em;
+  float: right;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: bold;
@@ -44,6 +41,7 @@ body {
 }
 
 .filterSelect {
+  padding: 0.5em;
   margin-left: 15px;
   font-family: Montserrat;
   font-size: 16px;
